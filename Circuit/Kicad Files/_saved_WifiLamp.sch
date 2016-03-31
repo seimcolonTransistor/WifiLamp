@@ -1,0 +1,140 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED_RGB_EP D1
+U 1 1 5642AB5A
+P 1350 1350
+F 0 "D1" H 1350 1800 50  0000 C CNN
+F 1 "LED_RGB_EP" H 1350 1700 50  0000 C CNN
+F 2 "" H 1350 1300 50  0000 C CNN
+F 3 "" H 1350 1300 50  0000 C CNN
+	1    1350 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_RGB_EP D?
+U 1 1 5642B1BE
+P 1350 1950
+F 0 "D?" H 1350 2400 50  0000 C CNN
+F 1 "LED_RGB_EP" H 1350 2300 50  0000 C CNN
+F 2 "" H 1350 1900 50  0000 C CNN
+F 3 "" H 1350 1900 50  0000 C CNN
+	1    1350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_RGB_EP D?
+U 1 1 5642B1CC
+P 1350 2550
+F 0 "D?" H 1350 3000 50  0000 C CNN
+F 1 "LED_RGB_EP" H 1350 2900 50  0000 C CNN
+F 2 "" H 1350 2500 50  0000 C CNN
+F 3 "" H 1350 2500 50  0000 C CNN
+	1    1350 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_RGB_EP D?
+U 1 1 5642B269
+P 1350 3250
+F 0 "D?" H 1350 3700 50  0000 C CNN
+F 1 "LED_RGB_EP" H 1350 3600 50  0000 C CNN
+F 2 "" H 1350 3200 50  0000 C CNN
+F 3 "" H 1350 3200 50  0000 C CNN
+	1    1350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 2150 1150 2350
+Wire Wire Line
+	1350 2350 1350 2150
+Wire Wire Line
+	1550 2350 1550 2150
+Wire Wire Line
+	1150 3050 1150 2750
+Wire Wire Line
+	1350 2750 1350 3050
+Wire Wire Line
+	1550 3050 1550 2750
+Wire Wire Line
+	1150 1750 1150 1550
+Wire Wire Line
+	1350 1750 1350 1550
+Wire Wire Line
+	1550 1750 1550 1550
+$Comp
+L +15V #PWR?
+U 1 1 5642B48B
+P 1350 1000
+F 0 "#PWR?" H 1350 850 50  0001 C CNN
+F 1 "+15V" H 1350 1140 50  0000 C CNN
+F 2 "" H 1350 1000 60  0000 C CNN
+F 3 "" H 1350 1000 60  0000 C CNN
+	1    1350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1150 1150 1100
+Wire Wire Line
+	1150 1100 1550 1100
+Wire Wire Line
+	1550 1100 1550 1150
+Wire Wire Line
+	1350 1000 1350 1150
+Connection ~ 1350 1100
+Wire Wire Line
+	1150 3450 1150 4350
+$Comp
+L R R?
+U 1 1 5642B70B
+P 1150 4500
+F 0 "R?" V 1230 4500 50  0000 C CNN
+F 1 "R" V 1150 4500 50  0000 C CNN
+F 2 "" V 1080 4500 30  0000 C CNN
+F 3 "" H 1150 4500 30  0000 C CNN
+	1    1150 4500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
